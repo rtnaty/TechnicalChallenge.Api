@@ -1,0 +1,99 @@
+{
+	"info": {
+		"_postman_id": "791673ed-7408-4f0d-b426-05b3312953ca",
+		"name": "PostDataTest",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://localhost:44300/api/UserAuthentication/login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"id\": \"mamitina\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44300/api/UserAuthentication/login",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44300",
+					"path": [
+						"api",
+						"UserAuthentication",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44300/api/Lesson/0da05937-4172-4c4e-a2f3-56376943be34",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6Im1hbWl0aW5hIiwic3ViIjoibWFtaXRpbmEiLCJleHAiOjE2NDM3Njc0OTAsImlzcyI6InRlY2huaWNhbC5jaGFsbGVuZ2UuYXBpIiwiYXVkIjoidGVjaG5pY2FsLmNoYWxsZW5nZS5hcGkifQ.sn-LFrlw7y2ervCd3UWKrPvPe-al_DXyorBC9J60AS8",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "",
+						"value": "",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"url": {
+					"raw": "https://localhost:44300/api/Lesson/0da05937-4172-4c4e-a2f3-56376943be34",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44300",
+					"path": [
+						"api",
+						"Lesson",
+						"0da05937-4172-4c4e-a2f3-56376943be34"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"auth": {
+		"type": "basic",
+		"basic": [
+			{
+				"key": "username",
+				"value": "<Basic Auth Username>",
+				"type": "string"
+			},
+			{
+				"key": "password",
+				"value": "<Basic Auth Password>",
+				"type": "string"
+			}
+		]
+	},
+	"variable": [
+		{
+			"key": "baseUrl",
+			"value": "localhost:3000",
+			"type": "string"
+		}
+	]
+}

@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "50ad8b64-901e-4751-b82e-72e001322f83": {
+      "ProjectGuid": "50ad8b64-901e-4751-b82e-72e001322f83",
+      "DisplayName": "TechnicalChallenge.Api",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
