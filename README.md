@@ -1,7 +1,5 @@
 # Technical Challenge (Web Api - JWT Authentication)
 
-<a href='https://ko-fi.com/changhuixu' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://cdn.ko-fi.com/cdn/kofi3.png?v=2' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
-
 This project implement a simple e-learning tracking reporting API using .NET Core and SQL ASP.NET Core web API application using JWT auth.
 
 ## Requirements
@@ -70,5 +68,3 @@ curl --location --request GET 'https://localhost:44300/api/Lesson/{id}' \
 ```
 
 **NOTE:** You can also move the folders around to consolidate the solution as one ASP.NET Core web app using the SPA service.
-
-<a href='https://ko-fi.com/changhuixu' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://cdn.ko-fi.com/cdn/kofi3.png?v=2' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
